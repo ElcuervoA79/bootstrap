@@ -1,0 +1,31 @@
+img {
+	max-width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    padding: 2rem 0;
+    border-bottom: 2px;
+    background-color: rgba(215, 173, 209, 0.59);    
+}
+.header__imgLogo{
+    max-width: 120px;
+    border-radius: 100px;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    background-color: rgba(196, 189, 189, 0.815);    
+
+}
+
+footer section p{
+    color:black;
+    font-size: 1.5em;
+}
